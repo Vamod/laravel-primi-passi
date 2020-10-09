@@ -14,6 +14,7 @@ header nav ul {
   justify-content: center;
   align-items: flex-start;
   flex-wrap: wrap;
+  padding-bottom: 5px;
   list-style: none;
 }
 
@@ -27,18 +28,55 @@ header nav ul li a {
   color: #002d75;
 }
 
+header nav ul li .active {
+  border-bottom: 2px solid #002d75;
+}
+
 main {
-  background-image: url(/images/1.jpeg?7680bb42127358fb82ba488591c3c4ee);
+  background-image: url(/images/2.jpg?93ce216df87950e8d50eca809bfbf45f);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+main .home {
+  text-align: center;
+}
+
+main iframe {
+  width: 800px;
+  height: 500px;
+  padding: 50px 0 50px 0;
+}
+
+main .contatti-container {
+  height: 100vh;
+}
+
+main .contatti-container ul.contatti {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+main .contatti-container ul.contatti li {
+  list-style: none;
+  margin-right: 10px;
+  padding-top: 20px;
+}
+
+main .contatti-container ul.contatti li a {
+  text-decoration: none;
+}
+
 main h2 {
   text-align: center;
-  margin-top: 20px;
   margin-bottom: 10px;
+  padding-top: 10px;
+  font-size: 30px;
   font-family: "Sansita Swashed", cursive;
-  color: #002d75;
+  color: white;
 }
 
 main .cards {
@@ -58,7 +96,7 @@ main .cards .card {
 
 main .cards .card h3 {
   margin-bottom: 5px;
-  color: #002d75;
+  color: white;
   font-family: "Sansita Swashed", cursive;
 }
 
@@ -68,7 +106,7 @@ main .cards .card img {
 
 main .cards .card:hover {
   transform: scale(1.1);
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 footer {

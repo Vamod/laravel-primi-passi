@@ -1,15 +1,45 @@
 main{
-        background-image: url('../../img/1.jpeg');
+        background-image: url('../../img/2.jpg');
         background-repeat: no-repeat;
         background-size: cover;
+    //parte home.blade.php
+    .home{
+        text-align: center;
+    }
+
+    iframe{
+        width: 800px;
+        height: 500px;
+        padding: 50px 0 50px 0;
+    }
+
+    //fine parte home.blade.php
+    // parte contatti.blade.php
+    .contatti-container{
+        height: 100vh;
+        ul.contatti{
+            @include flex(row,center,flex-start, wrap);
+            li{
+                list-style: none;
+                margin-right: 10px;
+                padding-top: 20px;
+                a{
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+
+    // parte contatti.blade.php
 
 
     h2{
         text-align: center;
-        margin-top: 20px;
         margin-bottom: 10px;
+        padding-top: 10px;
+        font-size: 30px;
         font-family: $font1;
-        color: $coloreBrand;
+        color: $white;
     }
     .cards{
         width: 90vw;
@@ -21,7 +51,7 @@ main{
             padding: 20px;
             h3{
                 margin-bottom: 5px;
-                color: $coloreBrand;
+                color: $white;
                 font-family: $font1;
             }
             img{
@@ -31,7 +61,7 @@ main{
         }
         .card:hover{
             transform: scale(1.1);
-            transition: 0.5s;
+            transition: 0.3s;
         }
     }
 }
