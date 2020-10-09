@@ -1,0 +1,30 @@
+main{
+        background-image: url('../../img/1.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+
+
+    h2{
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        color: $coloreBrand;
+    }
+    .cards{
+        width: 90vw;
+        margin: 0 auto;
+        @include flex(row,flex-start,flex-start, wrap);
+
+        .card{
+            width: 30vw;
+            padding: 10px;
+            h3{
+                margin-bottom: 5px;
+                color: $coloreBrand;
+            }
+            img{
+                width: 100%;
+            }
+        }
+    }
+}

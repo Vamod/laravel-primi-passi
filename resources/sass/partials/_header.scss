@@ -1,0 +1,16 @@
+header{
+    text-align: center;
+    nav ul{
+        @include flex(row,center,flex-start, wrap);
+        list-style: none;
+        li{
+            margin-right: 10px;
+
+        a{
+            text-decoration: none;
+            font-size: 20px;
+            color: $coloreBrand;
+        }
+    }
+    }
+}
