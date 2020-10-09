@@ -1,14 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="{{asset('css/app.css')}}">
-    <title>Document</title>
-</head>
-<body>
-    @include('partials.header')
-    @include('partials.footer')
-</body>
-</html>
+@extends('layout.app')
+
+@section('titolo', 'contatti')
+
+@section('main')
+    <ul>
+        <li><a href="#">Chi siamo</a> </li>
+        <li><a href="#">Il nostro lavoro</a> </li>
+        <li><a href="#">Lavora con noi</a> </li>
+    </ul>
+@endsection

@@ -1,14 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="{{asset('css/app.css')}}">
-    <title>Document</title>
-</head>
-<body>
-    @include('partials.header')
-    @include('partials.footer')
-</body>
-</html>
+@extends('layout.app')
+
+@section('titolo', 'home')
+
+@section('main')
+    <div class="home">
+        <iframe width="1519" height="854" src="https://www.youtube.com/embed/5EQC6efLBfc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+@endsection
