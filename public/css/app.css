@@ -64,6 +64,11 @@ main .cards .card img {
   width: 100%;
 }
 
+main .cards .card:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
 footer {
   height: 70px;
   line-height: 70px;

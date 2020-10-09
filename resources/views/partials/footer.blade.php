@@ -1,3 +1,3 @@
 <footer>
-    <h2><a href="#">La Molisana</a></h2>
+    <h2><a href="{{route('home')}}">La Molisana</a></h2>
 </footer>
