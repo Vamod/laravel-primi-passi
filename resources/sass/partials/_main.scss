@@ -21,10 +21,13 @@ main{
             @include flex(row,center,flex-start, wrap);
             li{
                 list-style: none;
-                margin-right: 10px;
+                margin-right: 20px;
                 padding-top: 20px;
                 a{
                     text-decoration: none;
+                    color: $white;
+                    font-size: 30px;
+                    font-family: $font1;
                 }
             }
         }

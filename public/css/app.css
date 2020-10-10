@@ -62,12 +62,15 @@ main .contatti-container ul.contatti {
 
 main .contatti-container ul.contatti li {
   list-style: none;
-  margin-right: 10px;
+  margin-right: 20px;
   padding-top: 20px;
 }
 
 main .contatti-container ul.contatti li a {
   text-decoration: none;
+  color: white;
+  font-size: 30px;
+  font-family: "Sansita Swashed", cursive;
 }
 
 main h2 {
